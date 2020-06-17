@@ -1,4 +1,4 @@
-.elllipse{
+.ellipse{
     position: absolute;
     top: 0;
     border-radius: 50%;
@@ -10,5 +10,15 @@
         border-width: 1px;
         border-color: var(--color-grey);
         opacity: .5;
+    }
+
+    &-thick{
+        width: 93%;
+        height: 93%;
+        border-width: 10px;
+        border-color: var(--color-white);
+        transform: rotate(-45deg);
+        top: 12px;
+        left: 12px;
     }
 }
